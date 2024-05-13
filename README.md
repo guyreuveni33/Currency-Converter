@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Currency Converter Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React-based Currency Converter is a real-time application that allows users to check and convert currency values against live foreign exchange rates. Designed with user-friendliness in mind, it features a clean interface with country flags for intuitive navigation.
 
-## Available Scripts
+## Live
 
-In the project directory, you can run:
+Check out the app live [here](https://currencyconverterguy.vercel.app/).
 
-### `npm start`
+![image](https://github.com/guyreuveni33/Currency-Converter/assets/116805344/c02c38b1-b7a5-438e-a2b8-3dd1deeedbfa)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Real-Time Currency Conversion:** Converts currencies using live exchange rates.
+- **Intuitive Swapping:** Swap between 'from' and 'to' currencies with a single click.
+- **Responsive Design:** Fully responsive and functional on all device sizes.
+- **Visual Indicators:** Utilizes country flags to represent different currencies.
+- **Error Handling:** Gracefully handles and displays errors related to API fetching.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React
+- Axios for API requests
+- React-icons for visually appealing icons
+- Vercel for deployment and analytics
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+You need to have Node.js and npm installed on your machine. To install these, follow the instructions from [Node.js official documentation](https://nodejs.org/en/download/).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Clone the repository:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+git clone https://github.com/guyreuveni33/Currency-Converter.git
+cd Currency-Converter
+```
 
-## Learn More
+2. **Install dependencies:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. **Run the application:**
 
-### Code Splitting
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This will run the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### Analyzing the Bundle Size
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Special thanks to [ExchangeRate-API](https://www.exchangerate-api.com/) for providing the currency conversion rates API.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
