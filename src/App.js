@@ -7,6 +7,8 @@ import './App.css';
 import ReactCountryFlag from "react-country-flag";
 import currencyToCountryMap from "./currencyToCountryMap";
 import calculator from "./calculator.png";
+import { Analytics } from "@vercel/analytics/react"
+
 const API_KEY = "469c5a7f5bcfecd87d885ea7";
 const CURRENCY_API = `https://v6.exchangerate-api.com/v6/${API_KEY}/latest/USD`;
 
@@ -114,6 +116,7 @@ function App() {
                     <p className='noRateText'>Enter an amount to see the conversion rate</p>
                 )}
             </div>
+        <Analytics/>
         </div>
     );
 }
