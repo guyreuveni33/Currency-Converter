@@ -29,32 +29,33 @@ Check out the app live [here](https://currencyconverterguy.vercel.app/).
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
-
-You need to have Node.js and npm installed on your machine. To install these, follow the instructions from [Node.js official documentation](https://nodejs.org/en/download/).
-
 ### Installing
 
 1. **Clone the repository:**
 
 ```bash
 git clone https://github.com/guyreuveni33/Currency-Converter.git
+```
+
+2. **Change directory:**
+
+```bash
 cd Currency-Converter
 ```
 
-2. **Install dependencies:**
+3. **Install dependencies:**
 
 ```bash
 npm install
 ```
 
-3. **Run the application:**
+4. **Run the application:**
 
 ```bash
 npm start
 ```
 
-This will run the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This will run the app in the development mode. Open [http://localhost:3000](http://localhost:8000) to view it in the browser. u can set the port by the .env file
 
 ## Acknowledgments
 
